@@ -5,17 +5,19 @@ body {
 
 .one {
   background: pink;
-  border: 3px solid blue;
+  border: 32px solid blue;
   /* CHANGE ME */
-  padding: 0px;
-  margin: 0px;
+  padding:  30px;
+  margin: 12px;
+  box-sizing: border-box;
+  border: 5px solid blue;
 }
 
 .two {
   background: lightblue;
   border: 3px solid purple;
   /* CHANGE ME */
-  margin-bottom: 0px;
+  margin-bottom: 12px;
 }
 
 .three {
@@ -24,5 +26,5 @@ body {
   width: 200px;
   /* CHANGE ME */
   padding: 0px;
-  margin-left: 0px;
+  margin-left: auto;
 }
