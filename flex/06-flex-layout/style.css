@@ -24,3 +24,45 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+/* Removing bullet points */
+.left-links {
+  list-style-type: none;
+  display: flex;
+  width: 80px;
+ 
+}
+
+/* Removing bullet points */
+.right-links {
+  list-style-type: none;
+  margin-left: 500px;
+  display: flex;
+}
+
+/* Removing underline from the links */
+a {
+  text-decoration: none;
+}
+
+/* Creating a flexbox */
+.header{
+  display: flex;
+}
+
+.About {
+  margin-right: 10px;
+  
+}
+
+.Store {
+  margin-left: 10px;
+}
+
+.Profile {
+   margin-right: 20px;
+}
+
+.Settings {
+  
+}
