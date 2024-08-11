@@ -19,12 +19,13 @@ body {
   font-size: 48px;
   font-weight: 900;
   color: tomato;
-  background: white;
   padding: 4px 32px;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 16px;
+  border-color: black;
+  border-style: solid;
 }
 
 ul {
@@ -36,14 +37,17 @@ ul {
   align-items: center;
   margin-top: 35px;
   flex-direction: row;
+  
 }
 
 a {
   font-size: 22px;
   margin: 16px;
-  background: white;
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
+  border-style: solid;
+  border-color: black;
   
 }
+
