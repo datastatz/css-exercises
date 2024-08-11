@@ -1,6 +1,8 @@
-/* External CSS */
+/* External CSS of the div */
 div {
     color: white;
     background-color: red;
 
 }
+
+/* Internal method CSS is added in the index.html file*/
